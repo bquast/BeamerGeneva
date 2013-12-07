@@ -1,0 +1,42 @@
+% The Graduate Institute, Geneva
+% Bastiaan Quast
+% bastiaan.quast@graduateinstitute.ch
+
+% This file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2 or greater.
+
+% INSTRUCTIONS FOR THE GENEVA PACKAGE
+% simply calling the packge will use the Graduate Institute Theme
+% if you pass the cfd option, the CFD theme will be used.
+
+% define the colours
+\definecolor{gired}{RGB}{193,0,26} % Graduate Institute
+\definecolor{cfdblue}{RGB}{0,148,216} % CFD
+
+% declare the logical variable to assess the cfd option
+% the option can be passed to the package using \usepackage[cfd]{geneva}
+\newif\ifCFD
+
+% assess the cfd option
+\DeclareOption{gi}{\CFDfalse}
+\DeclareOption{cfd}{\CFDtrue}
+\DeclareOption*{\PackageWarning{thename}{Unknown option '\CurrentOption'.}}
+\ProcessOptions\relax
+\ExecuteOptions{CFD}
+
+% depending on wether cfd is passed, the use cfd theme
+% otherwise, use the Graduate Institute theme
+\ifCFD
+  \pgfdeclareimage[height=1.50cm]{university-logo}{CFD}
+  \usecolortheme[named=cfdblue]{structure} % official CFD colours
+  \setbeamercolor{logo}{bg=white}
+  \setbeamercolor{alerted text}{fg=cfdblue}
+\else
+  \pgfdeclareimage[height=1.50cm]{university-logo}{GIDark}
+  \usecolortheme[named=gired]{structure} % official GI colours
+  \setbeamercolor{logo}{bg=white}
+  \setbeamercolor{alerted text}{fg=gired}
+\fi
+
+% declare the logo
+\logo{\pgfuseimage{university-logo}}
