@@ -12,17 +12,12 @@
 % to do this, remove '[cfd]' on line 21
 
 % NOTES ON THIS FILE
-% passed the option handout in the documentclass (line 18)
-% changed theme to Berkeley (line 29)
+% passed the option handout in the documentclass (line 20)
+% changed theme to Berkeley (line 24)
+% use the colortheme 'geneva' lines 33-34
+% hide the navigation bar (line 37)
 
 \documentclass[handout]{beamer}
-
-% load the style file
-%\usepackage[cfd]{geneva} % remove '[cfd]' to use the Graduate Institute Theme
-% hide controls
-\usenavigationsymbolstemplate{}
-
-
 
 \mode<presentation>
 {
@@ -33,7 +28,14 @@
   \setbeamercovered{transparent}
   % or whatever (possibly just delete it)
 }
-\usecolortheme{geneva}
+
+% BQ: load the color theme
+\usecolortheme%[cfd] % remove the FIRST '%' symbol on this line to use the CFD theme
+{geneva}
+
+% BQ: hide the navigation bar
+\usenavigationsymbolstemplate{}
+
 
 \usepackage[english]{babel}
 % or whatever
