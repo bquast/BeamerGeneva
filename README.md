@@ -39,7 +39,7 @@ If you do not have administrator rights (on your institute computer), then you c
 
  1. open windows explorer
  2. in the address bar type: `%APPDATA%`
- 3. go to: `Roaming\MikTeX\2.9\tex\latex\beamer\base\themes\color` (if the folder does not exist, then create it)
+ 3. go to: `Roaming\MikTeX\2.9\tex\latex\beamer\base\themes\color` (if the folder does not exist, create it)
  4. paste the three files mentioned above
  5. press the start button
  6. type: `cmd` and press enter
