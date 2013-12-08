@@ -44,7 +44,6 @@ If you do not have administrator rights (on your institute computer), then you c
  5. press the start button
  6. type: `cmd` and press enter
  7. type: `texhash` and press enter
- 8. 
 
 That should do it.
 
