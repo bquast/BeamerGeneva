@@ -33,6 +33,22 @@ In order to install the package properly, copy the files to the `colortheme` fol
 After this, open the `terminal` / `command prompt` and run `texhash`.
 
 
+Installation with administrator rights
+------------------------------------------------------
+If you do not have administrator rights (on your institute computer), then you can still install this package. To do so, follow these steps:
+
+ 1. open windows explorer
+ 2. in the address bar type: `%APPDATA%`
+ 3. go to: `MikTeX\2.9\tex\latex\beamer\base\themes\color` (if the folder does not exist, then create it)
+ 4. paste the three files mentioned above
+ 5. press the start button
+ 6. type: `cmd` and press enter
+ 7. type: `texhash` and press enter
+ 8. 
+
+That should do it.
+
+
 Usage
 ------------------------------------------------------
 This is a beamer `colortheme`, which means that it is a modification of a general beamer `theme`. It is intended to be used with the `Berkeley` theme, but can also be used with others. To use the Graduate Institute theme, add the following code to your preamble:
