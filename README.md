@@ -24,9 +24,9 @@ The package consists of three files:
 
 The `beamcolorthemgeneva.sty` file contains the instructions for colortheming. The `GI.png` file is the logo for the Graduate Institute theme. The `CFD.png` file is the logo the CFD theme.
 
-To use the theme only once, simply place the files in the folder of your tex file
+To use the theme only once, simply place the files in the folder of your tex file.
 
-For installing the package properly, copy the files to the `colortheme` folder. This folder can usually be found in:
+In order to install the package properly, copy the files to the `colortheme` folder of your `TeX` distribution. This folder can usually be found in:
 
     texmf/tex/latex/beamer/base/themes
 
