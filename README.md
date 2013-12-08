@@ -18,9 +18,9 @@ Installation
 ------------------------------------------------------
 The package consists of three files:
 
- 1. beamercolorthemegeneva.sty
- 2. GI.png
- 3. CFD.png
+ 1. `beamercolorthemegeneva.sty`
+ 2. `GI.png`
+ 3. `CFD.png`
 
 The `beamcolorthemgeneva.sty` file contains the instructions for colortheming. The `GI.png` file is the logo for the Graduate Institute theme. The `CFD.png` file is the logo the CFD theme.
 
@@ -46,8 +46,17 @@ If you would like to use the CFD theme, we simply pass the cfd option to the col
     \usetheme{Berkeley}
     \usecolortheme[cfd]{geneva}
 
-That's it!
+Additionally there is the `colortext` option. If you pass this option, e.g. like:
 
+    \usetheme{Berkeley}
+    \usecolortheme[colortext]{geneva}
+
+or
+
+    \usetheme{Berkeley}
+    \usecolortheme[cfd,colortext]{geneva}
+
+Then the main text will also be colored using the theme color.
 
 Notice
 ------------------------------------------------------
