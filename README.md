@@ -60,4 +60,4 @@ Then the main text will also be colored using the theme color.
 
 Notice
 ------------------------------------------------------
-This package is provided *as is*, *without* any warranty. The logos and theme are owner by their respective owners. This package is intended to simplify the use of these *if you are entitled to use them*. The author of this package is *not* the owner of theese logos and themes, and as such, cannot provide you with permission to use them.
+This package is provided *as is*, *without* any warranty. The logos and theme are owner by their respective owners. This package is intended to simplify the use of these *if you are entitled to use them*. The author of this package is *not* the owner of these logos and themes, and as such, cannot provide you with permission to use them.
