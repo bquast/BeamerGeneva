@@ -8,9 +8,11 @@ Introduction
 This is a `colortheme` for the `LaTeX` documentclass `beamer`. The colortheme is intended for The Graduate Institute, Geneva, and for The Centre for Finance and Development. 
 
 The Graduate Institute theme looks like this:
+
 ![The Graduate Institute Theme](exampleGI.png "The Graduate Institute Theme")
 
 The Centre for Finance and Development Theme looks like this:
+
 ![The CFD Theme](exampleCFD.png "The CFD Theme")
 
 
